@@ -8,9 +8,21 @@
 
 辅助阅读：
 
-* [辅助阅读：廖雪峰java教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1255887847679616)
+* [辅助阅读：廖雪峰java教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1260471862687712)
 
 * [JAVA菜鸟教程，速通JAVA语法](https://www.runoob.com/java/java-arraylist.html)
+
+## [谷歌之外开发工具](https://github.com/jhuangtw/xg2xg)
+
+> 推介工具为脱离谷歌内部环境也可以使用
+
+* 找出特性或者缺陷: Github issues,Jira
+* 阅读代码： OpenGrok, Hound, sourcegraph
+* 编写代码： VS Code， InterlliJ, Emacs
+* 测试代码： Bazel
+* 审核代码： Github PR, Gerrit, Phabricator, Reviewable
+* 部署： Kubernetes
+* 监控： Prometheus, Grafana, Lightstep, Honeycomb, Sentry
 
 ## java 学习顺序
 
