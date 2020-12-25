@@ -1,5 +1,7 @@
-package com.company;
+# equals
 
+```java
+package com.company;
 
 import java.util.List;
 import java.util.Objects;
@@ -29,9 +31,10 @@ class Person {
 
     public boolean equals(Object o){
         if(o instanceof Person){
-            Person p = (Person) o;
+            Person p = (Person)o;
             return Objects.equals(this.firstName,p.firstName) && Objects.equals(this.lastName,p.lastName);
         }
         return false;
     }
 }
+```
