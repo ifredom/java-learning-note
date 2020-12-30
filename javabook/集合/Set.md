@@ -1,3 +1,12 @@
+# Set
+> hashSet TreeSet
+
+> TreeSet和使用TreeMap的要求一样，添加的元素必须要实现 `Comparable`接口，
+> 如果没有实现`Comparable`接口，那么必须传入`Comparator`对象
+
+## 去重示例
+
+```java
 package com.company;
 
 import java.util.*;
@@ -21,13 +30,11 @@ public class Main {
 
     static List<Message> process(List<Message> received) {
         // TODO: 按sequence去除重复消息
-        // comparingInt(m->m.sequence)
-        Set<Message> set = new TreeSet<Message>(Comparator.comparingInt(o1 -> o1.sequence));
+        // 1.由于要传入的对象Message没有实现Comparable接口，那么必须传入一个Comparator对象
+        Set<Message> set = new TreeSet<Message>(Comparator.comparingInt(m->m.sequence));
         ArrayList<Message> list = new ArrayList<>();
-        for (Message item:received){
-            set.add(item);
-        }
-        System.out.println(set);
+
+        add.addAll(received);
         list.addAll(set);
 
         return list;
@@ -55,3 +62,5 @@ class Message {
         return Objects.hash(sequence, text);
     }
 }
+
+```
