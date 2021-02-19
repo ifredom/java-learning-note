@@ -1,14 +1,15 @@
-# java学习视频
+# java学习方法
 
 > 以一个视频为主，其他资料为辅，进行对比学习。
 > 学习结果通过`javabook`总结，
 
 [尚硅谷视频](https://www.bilibili.com/video/BV1Kb411W75N?p=42)
 
-
+> java版本使用11最佳
+> 
 辅助阅读：
 
-* [辅助阅读：廖雪峰java教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1265121791832960)
+* [辅助阅读：廖雪峰java教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1255943750561472)
 
 * [JAVA菜鸟教程，速通JAVA语法](https://www.runoob.com/java/java-arraylist.html)
 

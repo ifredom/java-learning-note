@@ -10,6 +10,10 @@ public abstract int read() throws IOException;
 > 这个方法会读取输入流的下一个字节，并返回字节表示的int值（0~255）。
 > 如果已读到末尾，返回-1表示不能继续读取了
 
+## fileInputStream
+
+> FileInputStream 是 InputStream 的一个子类。顾名思义，FileInputStream就是从文件流中读取数据
+
 ##  读取文件示例
 
 > 注意需要在项目根目录下提前创建文件`file.txt`
